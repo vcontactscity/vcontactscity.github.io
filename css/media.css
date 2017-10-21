@@ -370,6 +370,9 @@
     .vip-content .vip-person__item {
         width: 47%;
     }
+    .accounts-item {
+        margin: 0 auto 15px;
+    }
 
     .btn-create__newsletter {
         max-width: 290px;

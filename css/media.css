@@ -63,9 +63,6 @@
     .black-list__content {
         padding: 5px 20px 20px;
     }
-
-
-
 }
 
 
@@ -183,37 +180,37 @@
         display: none;
     }
 
-     .main {
+    .main {
         display: none;
     }
 
-     .center {
-         position: relative;
-         left: auto;
-         top: auto;
-         margin:0;
-         width: 100%;
-         max-width: 100%;
-     }
+    .center {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin:0;
+        width: 100%;
+        max-width: 100%;
+    }
 
-     .center-header {
-         width: 100%;
-         justify-content: flex-start;
-         padding-left: 15px;
-         font-size: 14px;
-     }
-     .messages.messeges--dialog {
-         margin-bottom: 53px;
-     }
-     .messages-item {
-         padding: 15px;
-     }
+    .center-header {
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .messages.messeges--dialog {
+        margin-bottom: 53px;
+    }
+    .messages-item {
+        padding: 15px;
+    }
     .messages-photo {
         margin-right: 15px;
     }
-     .message-info {
-         width: 75%;
-     }
+    .message-info {
+        width: 75%;
+    }
     .messages-photo img {
         width: 45px;
     }
@@ -295,20 +292,21 @@
         margin: 90px 15px 0;
     }
     .popup-wrapper {
-
+        overflow-x: hidden;
+        overflow-y: auto;
 
     }
     .popup-wrapper::before {
         display: none;
     }
-    .popup {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
+    .popup-wrapper div.popup {
         width: 100%;
+        height: auto;
         z-index:1111;
         border: none;
+    }
+    .popup-content {
+        background: #fff;
     }
 
     .btn-back {
@@ -380,7 +378,7 @@
     .advansed-searсh {
         position: static;
         width: 100%;
-        margin-top: 10px;
+        margin: 10px 0 0 0;
         border: none;
         background: #fff;
     }
@@ -448,9 +446,7 @@
         max-width: 100%;
         width: 100%;
     }
-    .popup {
-        min-height: 100vh;
-    }
+
     .about {
         width: 100%;
         margin-left: 0;
@@ -617,23 +613,4 @@
         margin: 0;
     }
 
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
